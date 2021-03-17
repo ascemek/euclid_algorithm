@@ -16,7 +16,7 @@ def euclid_algorithm (m,n):
     q = 0
 
     # q equals how mant time this loop runs
-    while(int(x) - int(m)) > 0:
+    while(int(x) - int(m)) >= 0:
         x = int(x) - 11
         q = q + 1
         print(x)
